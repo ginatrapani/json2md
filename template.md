@@ -1,10 +1,13 @@
 ---
 category:
   - "[[Reddit Saves]]"
-permalink: https://reddit.com{{permalink}}
-tags: {{subreddit}}-subreddit {{year}}-reddit
-created: {{created}}
+saved post: {{saved_permalink}}
+original post: {{op_permalink}}
+tags: {{subreddit}}-subreddit {{year}}-reddit unreviewed-reddit
+created: {{op_created}}
 ---
 # {{title}}
 
-{{body}}
+{{op_body}}
+
+{{saved_post}}
